@@ -1,0 +1,58 @@
+/* Colores: 
+
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner-home{
+    background-image: url(/img/img-home-banner.jpg);
+    background-size: cover; /* p/ ocupar todo */
+    height: 130px;
+    margin: auto; /* p/centrar */
+}
+
+/* Respo Tablet */
+@media screen and (min-width: 768px){
+    #banner-home{
+    height: 190px; /* puede modificarse a futuro VER CLASES*/
+}
+}
+/* ---------------------------------------------------- */
+/* Inicio Header */
+
+
+
+/* Fin Header */
+/* ---------------------------------------------------- */
+/* Inicio MAIN */
+
+
+
+/* Fin MAIN */
+/* ---------------------------------------------------- */
+/* Inicio Footer */
+
+
+
+/* Fin Footer */
+/* ---------------------------------------------------- */
+
+/* Media queries */

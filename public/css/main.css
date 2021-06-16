@@ -1,0 +1,26 @@
+.main1{
+    width: 90%;
+    margin: auto; /* centradito */
+}
+.article img {
+    width: 100%;
+}
+
+.main1 h1{
+    font-weight: 400;
+    color: #666;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+   /*  position: absolute;
+    right: 20px;
+    top: -15px; */
+}
