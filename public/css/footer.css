@@ -1,0 +1,29 @@
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 1.25rem 1.25rem 0.625rem 1.25rem;
+}
+
+#footer-one {
+    margin-bottom: 3.125rem;
+}
+
+#footer-one i{
+    font-size: 2em;
+    margin-bottom: 0.625rem;
+    color: #03264C;
+}
+
+#footer-one article h4{
+    margin: 0;
+}
+#footer-one article p{
+    margin: 0.1875rem;
+}
+#footer-one article {
+    margin-bottom: 3.125rem;
+}
+
+#footer-two {
+    text-align: left;
+}
