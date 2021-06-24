@@ -32,6 +32,8 @@ article.article{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;
+    padding-top: 0.5rem;
 }
 
 .fa-truck{
@@ -43,9 +45,12 @@ article.article{
     color: #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
-.nisman{
+.truck{
     display: flex;
     width: 100%;
     align-self: flex-end;
@@ -62,28 +67,31 @@ article.article{
     background-color: #FFF;
     border-radius: 50%; */
    /*  position: absolute;
-    right: 20px;
-    top: -15px; */
+     */
 
 p.precio{
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 20%;
 }
 
 p.descuentos{
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    color: #39b54a;
+    color: #39b54a; 
 }
 
 p.descripciones{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     width: 100%;
     color: #666;
     margin: 0.9375rem 0;
+    transition: all 450ms;
+}
+p.descripciones:hover{
+    display: block;
 }
 
 
