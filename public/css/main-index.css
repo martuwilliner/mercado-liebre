@@ -23,6 +23,11 @@ article.article{
     background-color: #FFF;
     margin-bottom: 0.625rem;
     padding-bottom: 0.625rem;
+    transition: all 0.4s ease-in-out;
+}
+
+article.article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .article1{
@@ -48,6 +53,7 @@ article.article{
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .truck{
@@ -55,19 +61,11 @@ article.article{
     width: 100%;
     align-self: flex-end;
     justify-content: flex-end;
+    
 }
-
-    /* display: flex;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    color: #39b54a;
-    background-color: #FFF;
-    border-radius: 50%; */
-   /*  position: absolute;
-     */
+article.article1:hover .fa-truck{
+    transform: rotate(360deg);
+}
 
 p.precio{
     display: flex;
@@ -88,10 +86,12 @@ p.descripciones{
     width: 100%;
     color: #666;
     margin: 0.9375rem 0;
-    transition: all 450ms;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
 }
-p.descripciones:hover{
-    display: block;
+
+article.article:hover .descripciones{
+    visibility: visible;
 }
 
 
@@ -99,9 +99,9 @@ p.descripciones:hover{
     p.descripciones{
         display: block;
     }
-    article.article {
+   /*  article.article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+    } */
 }
 
 

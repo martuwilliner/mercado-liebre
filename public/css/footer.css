@@ -6,6 +6,10 @@ footer {
 
 #footer-one {
     margin-bottom: 3.125rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 90vw;
+    margin: auto;
 }
 
 #footer-one i{
@@ -22,8 +26,27 @@ footer {
 }
 #footer-one article {
     margin-bottom: 3.125rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 #footer-two {
     text-align: left;
+}
+
+
+@media screen and (min-width: 1200px) {
+    #footer-one{
+        display: flex;
+        flex-flow: row wrap;
+        width: 90vw;
+        justify-content: center;
+    }
+    #footer-one article{
+        display: flex;
+        width: 22vw;
+        
+    }
+    
 }
